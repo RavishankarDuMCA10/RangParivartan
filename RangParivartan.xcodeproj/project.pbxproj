@@ -17,6 +17,7 @@
 		B932E43A24857B490082E535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B932E43924857B490082E535 /* Assets.xcassets */; };
 		B932E43D24857B490082E535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B932E43B24857B490082E535 /* LaunchScreen.storyboard */; };
 		B932E44824857B4A0082E535 /* RangParivartanExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932E44724857B4A0082E535 /* RangParivartanExamplesTests.swift */; };
+		B932E45124857F830082E535 /* RangParivartan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932E45024857F830082E535 /* RangParivartan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B932E44324857B490082E535 /* RangParivartanExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangParivartanExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B932E44724857B4A0082E535 /* RangParivartanExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangParivartanExamplesTests.swift; sourceTree = "<group>"; };
 		B932E44924857B4A0082E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B932E45024857F830082E535 /* RangParivartan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangParivartan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				B932E41324857A130082E535 /* RangParivartan.h */,
 				B932E41424857A130082E535 /* Info.plist */,
+				B932E45024857F830082E535 /* RangParivartan.swift */,
 			);
 			path = RangParivartan;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				TargetAttributes = {
 					B932E40F24857A130082E535 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					B932E41824857A130082E535 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -322,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B932E45124857F830082E535 /* RangParivartan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +514,7 @@
 		B932E42524857A130082E535 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
@@ -526,6 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.RangParivartan;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -534,6 +541,7 @@
 		B932E42624857A130082E535 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
@@ -559,6 +567,7 @@
 		B932E42824857A130082E535 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
 				INFOPLIST_FILE = RangParivartanTests/Info.plist;
@@ -577,6 +586,7 @@
 		B932E42924857A130082E535 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
 				INFOPLIST_FILE = RangParivartanTests/Info.plist;
@@ -599,7 +609,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
 				INFOPLIST_FILE = RangParivartanExamples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,7 +628,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
 				INFOPLIST_FILE = RangParivartanExamples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
