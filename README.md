@@ -11,6 +11,7 @@ self.present(vc, animated:true, completion: nil)
 ```
 ## RPControllerDelegate methods
 
+```Swift
 extension ViewController: RPControllerDelegate {
     func rPControllerImageDidFilter(image: UIImage) {
       // Filtered image will be returned here.
@@ -20,3 +21,4 @@ extension ViewController: RPControllerDelegate {
       // This will be called when you cancel filtering the image.
     }
 }
+```
