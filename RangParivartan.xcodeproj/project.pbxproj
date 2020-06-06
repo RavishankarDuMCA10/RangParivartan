@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B916965A248BCC6800FA0C54 /* RPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9169658248BCC6800FA0C54 /* RPCollectionViewCell.swift */; };
+		B916965B248BCC6800FA0C54 /* RPCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9169659248BCC6800FA0C54 /* RPCollectionViewCell.xib */; };
+		B916965E248BCD1900FA0C54 /* RPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916965C248BCD1900FA0C54 /* RPViewController.swift */; };
+		B916965F248BCD1900FA0C54 /* RPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B916965D248BCD1900FA0C54 /* RPViewController.xib */; };
+		B9169669248BFD0800FA0C54 /* RangParivartan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932E41024857A130082E535 /* RangParivartan.framework */; };
 		B932E41A24857A130082E535 /* RangParivartan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932E41024857A130082E535 /* RangParivartan.framework */; };
 		B932E41F24857A130082E535 /* RangParivartanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932E41E24857A130082E535 /* RangParivartanTests.swift */; };
 		B932E42124857A130082E535 /* RangParivartan.h in Headers */ = {isa = PBXBuildFile; fileRef = B932E41324857A130082E535 /* RangParivartan.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,7 +22,8 @@
 		B932E43A24857B490082E535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B932E43924857B490082E535 /* Assets.xcassets */; };
 		B932E43D24857B490082E535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B932E43B24857B490082E535 /* LaunchScreen.storyboard */; };
 		B932E44824857B4A0082E535 /* RangParivartanExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932E44724857B4A0082E535 /* RangParivartanExamplesTests.swift */; };
-		B932E45124857F830082E535 /* RangParivartan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932E45024857F830082E535 /* RangParivartan.swift */; };
+		B932E45E2487875E0082E535 /* colorful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B932E45C2487875E0082E535 /* colorful.jpg */; };
+		B932E45F2487875F0082E535 /* lotus-flower-on-water.png in Resources */ = {isa = PBXBuildFile; fileRef = B932E45D2487875E0082E535 /* lotus-flower-on-water.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9169658248BCC6800FA0C54 /* RPCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPCollectionViewCell.swift; sourceTree = "<group>"; };
+		B9169659248BCC6800FA0C54 /* RPCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RPCollectionViewCell.xib; sourceTree = "<group>"; };
+		B916965C248BCD1900FA0C54 /* RPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPViewController.swift; sourceTree = "<group>"; };
+		B916965D248BCD1900FA0C54 /* RPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RPViewController.xib; sourceTree = "<group>"; };
 		B932E41024857A130082E535 /* RangParivartan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RangParivartan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B932E41324857A130082E535 /* RangParivartan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangParivartan.h; sourceTree = "<group>"; };
 		B932E41424857A130082E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +65,8 @@
 		B932E44324857B490082E535 /* RangParivartanExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangParivartanExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B932E44724857B4A0082E535 /* RangParivartanExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangParivartanExamplesTests.swift; sourceTree = "<group>"; };
 		B932E44924857B4A0082E535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B932E45024857F830082E535 /* RangParivartan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangParivartan.swift; sourceTree = "<group>"; };
+		B932E45C2487875E0082E535 /* colorful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorful.jpg; sourceTree = "<group>"; };
+		B932E45D2487875E0082E535 /* lotus-flower-on-water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lotus-flower-on-water.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9169669248BFD0800FA0C54 /* RangParivartan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +103,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9169660248BE13A00FA0C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B932E40624857A130082E535 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,7 @@
 				B932E42F24857B400082E535 /* RangParivartanExamples */,
 				B932E44624857B490082E535 /* RangParivartanExamplesTests */,
 				B932E41124857A130082E535 /* Products */,
+				B9169660248BE13A00FA0C54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +138,10 @@
 			children = (
 				B932E41324857A130082E535 /* RangParivartan.h */,
 				B932E41424857A130082E535 /* Info.plist */,
-				B932E45024857F830082E535 /* RangParivartan.swift */,
+				B9169658248BCC6800FA0C54 /* RPCollectionViewCell.swift */,
+				B9169659248BCC6800FA0C54 /* RPCollectionViewCell.xib */,
+				B916965C248BCD1900FA0C54 /* RPViewController.swift */,
+				B916965D248BCD1900FA0C54 /* RPViewController.xib */,
 			);
 			path = RangParivartan;
 			sourceTree = "<group>";
@@ -135,6 +158,8 @@
 		B932E42F24857B400082E535 /* RangParivartanExamples */ = {
 			isa = PBXGroup;
 			children = (
+				B932E45C2487875E0082E535 /* colorful.jpg */,
+				B932E45D2487875E0082E535 /* lotus-flower-on-water.png */,
 				B932E43024857B400082E535 /* AppDelegate.swift */,
 				B932E43224857B400082E535 /* SceneDelegate.swift */,
 				B932E43424857B400082E535 /* ViewController.swift */,
@@ -292,6 +317,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B916965F248BCD1900FA0C54 /* RPViewController.xib in Resources */,
+				B916965B248BCC6800FA0C54 /* RPCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B932E45F2487875F0082E535 /* lotus-flower-on-water.png in Resources */,
 				B932E43D24857B490082E535 /* LaunchScreen.storyboard in Resources */,
+				B932E45E2487875E0082E535 /* colorful.jpg in Resources */,
 				B932E43A24857B490082E535 /* Assets.xcassets in Resources */,
 				B932E43824857B400082E535 /* Main.storyboard in Resources */,
 			);
@@ -326,7 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B932E45124857F830082E535 /* RangParivartan.swift in Sources */,
+				B916965A248BCC6800FA0C54 /* RPCollectionViewCell.swift in Sources */,
+				B916965E248BCD1900FA0C54 /* RPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,9 +545,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 24CKMLG3UB;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -531,6 +563,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.RangParivartan;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -542,9 +576,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 24CKMLG3UB;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -558,6 +594,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.RangParivartan;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -606,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
 				INFOPLIST_FILE = RangParivartanExamples/Info.plist;
@@ -616,6 +655,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.RangParivartanExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -625,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CKMLG3UB;
 				INFOPLIST_FILE = RangParivartanExamples/Info.plist;
@@ -635,6 +676,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.self.RangParivartanExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
