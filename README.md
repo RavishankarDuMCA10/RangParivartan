@@ -15,7 +15,7 @@ extension ViewController: RPControllerDelegate {
       // Filtered image will be returned here.
     }
 
-    func rPControllerDidCancel() {
+   func rPControllerDidCancel() {
       // This will be called when you cancel filtering the image.
     }
 }
