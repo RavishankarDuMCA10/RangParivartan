@@ -1,14 +1,14 @@
 # RangParivartan
 
-Usage
-How to present RPViewController
+#Usage
+##How to present RPViewController
 
 let image = UIImage(named: "targetImage")
 let vc = RPViewController(image: image)
 vc.delegate = self
 self.present(vc, animated:true, completion: nil)
 
-RPControllerDelegate methods
+##RPControllerDelegate methods
 
 extension ViewController: RPControllerDelegate {
     func rPControllerImageDidFilter(image: UIImage) {
