@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "RangParivartan/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
